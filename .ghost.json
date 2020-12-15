@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://scaryghost.herokuapp.com",
+    "contentApiKey": "0c945820bb083a55a56e9fb4fd"
   },
   "production": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://scaryghost.herokuapp.com",
+    "contentApiKey": "0c945820bb083a55a56e9fb4fd"
   }
 }
