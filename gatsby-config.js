@@ -69,6 +69,33 @@ module.exports = {
         /**
          *  Utility Plugins
          */
+         {
+         resolve: `@draftbox-co/gatsby-theme-ghost-attila`,
+         options: {
+             siteConfig: {
+             siteUrl: `https://hopeful-wiles-6d51c6.netlify.app/`,
+             postsPerPage: 12,
+             siteTitleMeta: `Gatsby Frontend powered by headless Ghost CMS`,
+             siteDescriptionMeta: `Turn your Ghost blog into a lightning fast static website with Gatsby`,
+             shareImageWidth: 1000,
+             shareImageHeight: 523,
+             shortTitle: `Ghost`,
+             siteIcon: `favicon.png`,
+             backgroundColor: `#e9e9e9`,
+             themeColor: `#15171A`,
+             },
+             ghostConfig: {
+                 "development": {
+                     "apiUrl": "https://scaryghost.herokuapp.com",
+                     "contentApiKey": "0c945820bb083a55a56e9fb4fd",
+                 },
+                 "production": {
+                     "apiUrl": "https://scaryghost.herokuapp.com",
+                     "contentApiKey": "0c945820bb083a55a56e9fb4fd",
+                 },
+             },
+           },
+        },
         {
             resolve: `gatsby-plugin-ghost-manifest`,
             options: {
